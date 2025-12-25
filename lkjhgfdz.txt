@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мой первый сайт</title>
+</head>
+<body>
+<header>
+<h1>Добро пожаловать на мой сайт</h1>
+<nav>
+<ul>
+<li><a href="index.html">Главная</a></li>
+<li><a href="about.html">О нас</a></li>
+<li><a href="contact.html">Контакты</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<section id="intro">
+<h2>О чём этот сайт</h2>
+<p>Это мой первый сайт, созданный с помощью <b>HTML</b> в обычном Блокноте.</p>
+<p>Здесь я буду делиться своими <i>знаниями и опытом</i>.</p>
+</section>
+
+<section id="skills">
+<h2>Мои навыки</h2>
+<ul>
+<li>HTML</li>
+<li>CSS (начальный уровень)</li>
+<li>Создание сайтов в Блокноте</li>
+</ul>
+</section>
+
+<section id="projects">
+<h2>Мои проекты</h2>
+<table border="1">
+<tr>
+<th>Название проекта</th>
+<th>Описание</th>
+</tr>
+<tr>
+<td>Мой первый сайт</td>
+<td>Сайт, созданный с использованием HTML в Блокноте</td>
+</tr>
+<tr>
+<td>Будущий проект</td>
+<td>Скоро здесь появится новый проект</td>
+</tr>
+</table>
+</section>
+</main>
+
+<footer>
+<p>© 2023 Мой первый сайт. Все права защищены.</p>
+</footer>
+</body>
+</html>
+
+echo "# vlad" >> README.md
+git init
+git add README.md
+git commit -m "первый коммит"
+git branch -M main
+git remote add origin https://github.com/vladangozorov-maker/vlad.git
+git push -u origin main
