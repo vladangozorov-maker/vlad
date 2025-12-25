@@ -53,7 +53,7 @@
 </main>
 
 <footer>
-<p>© 2023 Мой первый сайт. Все права защищены.</p>
+<p>© 2025 Мой первый сайт. Все права защищены.</p>
 </footer>
 </body>
 </html>
@@ -64,4 +64,5 @@ git add README.md
 git commit -m "первый коммит"
 git branch -M main
 git remote add origin https://github.com/vladangozorov-maker/vlad.git
+
 git push -u origin main
